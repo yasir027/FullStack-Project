@@ -1,0 +1,40 @@
+.add-book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This will make the container take up the full height of the viewport */
+}
+
+.add-book-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-book-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-book-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-book-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-book-form button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,53 @@
+/* booksList.css */
+
+.book-headlines {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.attribute {
+  flex: 1;
+  text-align: center;
+}
+
+.book-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  list-style-type: none; /* Remove bullet points */
+}
+
+.book-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.edit-form {
+  margin-top: 10px;
+}
+
+.edit-form input {
+  margin-right: 5px;
+}
+
+.edit-form button {
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-form button:hover {
+  background-color: #0056b3;
+}

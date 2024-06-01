@@ -1,0 +1,24 @@
+/* navbar.css */
+
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 34px;
+      font-weight: bold;
+
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  
