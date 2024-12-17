@@ -1,12 +1,10 @@
-Here’s a detailed `README.md` file for your project, keeping in mind that you're hosting it on GitHub:
 
----
 
-# Bookstore App
+# Understand FullStack - Bookstore App
 
 ## Overview
 
-The Bookstore App is a full-stack application that allows users to manage books in a bookstore. The application provides functionality to view, add, edit, and delete books, with the front end developed using React and the back end using Node.js and Express. The database used is MySQL. The front-end and back-end communicate via RESTful APIs.
+The Bookstore App is a full-stack application that allows users to manage books in a bookstore. The application provides functionality to view, add, edit, and delete books, with the front end developed using React and the back end using Node.js and Express. The database used is MySQL. The front-end and back-end communicate via RESTful APIs. Creating the following application would help you understand how and what Full Stack acutally is. Happy Coding Guys!
 
 ### Tech Stack:
 - **Frontend**: React
@@ -223,18 +221,4 @@ bookstore-app/
 - When a user adds a book via the `AddBookForm` component, a `POST` request is made to the `/books` endpoint on the backend. The backend processes the request and adds the new book to the database.
 - Similarly, when a user deletes or edits a book, the frontend makes a `DELETE` or `PUT` request, and the backend performs the corresponding operation on the database.
 
----
 
-## Conclusion
-
-This project provides a simple yet powerful solution for managing a bookstore's inventory. With React on the frontend, Express and Node.js on the backend, and MySQL as the database, it provides full CRUD functionality for books, making it a fully functional bookstore management system.
-
----
-
-## License
-
-MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Feel free to modify and expand this README file to fit your specific project details and requirements!
